@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crimes",
+  "info": {
+    "singularName": "crime",
+    "pluralName": "crimes",
+    "displayName": "Crime"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

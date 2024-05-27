@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_fives",
+  "info": {
+    "singularName": "top-five",
+    "pluralName": "top-fives",
+    "displayName": "topFive",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

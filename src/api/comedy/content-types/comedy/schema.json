@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comedies",
+  "info": {
+    "singularName": "comedy",
+    "pluralName": "comedies",
+    "displayName": "Comedy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
